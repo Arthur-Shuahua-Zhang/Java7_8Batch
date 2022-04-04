@@ -4,6 +4,8 @@ import java.io.Serializable;
 
 public class Student implements Serializable {
 
+    private long seriesUID = 12312421412L;
+
     private String name;
     private int age;
     private transient int ssn;
